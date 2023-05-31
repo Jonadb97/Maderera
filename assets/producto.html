@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  <title>La maderera</title>
+</head>
+
+<body>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg nav-section">
+    <div class="container-fluid nav-section">
+      <a class="nav-section ms-1 brand-logo" href="../index.html"><img class="nav-section" src="./img/logos/logoBlanco.svg"
+          alt="La maderera - Logotipo"></img></a>
+      <button id="toggleButton" onclick="burger()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li>
+            <a class="active" href="#">PRODUCTOS</a>
+          </li>
+          <li>
+            <a href="#servicios">SERVICIOS</a>
+          </li>
+          <li>
+            <a href="#">LISTA MAYORISTA</a>
+          </li>
+          <li>
+            <a href="#empresa">EMPRESA</a>
+          </li>
+          <li>
+            <a href="#trabajos">TRABAJOS</a>
+          </li>
+          <li>
+            <a href="#footer">CONTACTO</a>
+          </li>
+          <span class="button1"><i class="bi bi-instagram"></i></span>
+          <span class="button2"><i class="bi bi-whatsapp"></i></span>
+          <span class="mp-brand"><img src="./img/logos/mp.svg" alt="Mercado libre" width="120px"></span>
+      </div>
+    </div>
+  </nav>
+  <!--Navigation-->
+
+  <!--Trabajos especiales-->
+  <div id="trabajos" class="trabajos-section">
+    <h2>PRODUCTO</h2>
+    <div class="row">
+      <div class="col-lg-6 img-producto">
+        <img src="./img/productos/LM-diseños-Banco-1-tabla-cepillado-3-1-scaled.jpg" width="600px" height="600px" style="object-fit: cover;" alt="">
+      </div>
+      <div class="col-lg-6 col-producto">
+        <div class="col-lg-6 col-desc">
+          <h2>SARPADO BANQUITO</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, nesciunt. Maxime atque minima reiciendis quis velit praesentium consectetur molestiae assumenda, molestias natus eum tempora, laboriosam voluptates saepe nesciunt sequi necessitatibus!
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-3">img, img, img</div>
+          <div class="col-md-2">Contact info</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <!--Trabajos especiales-->
+
+
+  <!-- Footer y contacto -->
+
+  <div id="footer" class="contact-section">
+    <h2>UBICACIÓN Y CONTACTO</h2>
+    <div class="row">
+      <div class="col-lg-6 contact-form-container">
+        <form action="">
+          <div>
+            <h6>CONSULTAS</h6>
+          </div>
+          <label for="nombre">NOMBRE</label>
+          <input type="text">
+          <label for="mail">E-MAIL</label>
+          <input type="email" name="email" id="email-id">
+          <label for="mail">CONFIRMAR E-MAIL</label>
+          <input type="email" name="email" id="email-id">
+          <label for="mensaje">E-MAIL</label>
+          <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+        </form>
+        <input class="submit-button" type="submit" value="ENVIAR">
+      </div>
+      <div class="col-lg-6 info-container">
+        <a href=""><button><i class="bi bi-envelope-fill"></i></button><strong>info@maderaslm.com</strong></a>
+        <a href=""><button><i class="bi bi-telephone-fill"></i></button><strong>+5492236009852</strong></a>
+        <a href=""><button><i class="bi bi-geo-alt-fill"></i></button><strong>Avenida Champagnat 1425 (esq. 9 de
+            Julio)</strong><br>
+          B7604GWC Mar del Plata
+          Buenos Aires, Argentina.</a>
+        <a href=""><button><i class="bi bi-clock"></i></button>Horario de atención: <strong>Lunes a Viernes de 8 a 17
+            hs.</strong></a>
+        <!-- Google Maps -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50318.93706648608!2d-57.6226021782171!3d-37.978679658806314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d91428493d85%3A0xf4c6413e33bef5e3!2sLa%20Maderera!5e0!3m2!1ses!2sar!4v1684981694903!5m2!1ses!2sar"
+           style="border:2;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </div>
+  </div>
+  <footer>
+    <div class="row">
+      <div class="col-lg-4 footer-logo"><img class="footer-image" src="./img/logos/logoBlanco.svg" width="280px" alt=""></div>
+      <div class="col-lg-4">
+        <ul class="footer-list">
+          <li><a href="#">PRODUCTOS</a></li>
+          <li><a href="#">EMPRESA</a></li>
+          <li><a href="#">SERVICIOS</a></li>
+          <li><a href="#">LISTA MAYORISTA</a></li>
+          <li><a href="#">EMPRESA</a></li>
+          <li><a href="#">TRABAJOS</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 footer-last">
+        <div class="footer-rrss">
+          <span class="button1"><i class="bi bi-instagram"></i></span>
+          <span class="button2"><i class="bi bi-whatsapp"></i></span>
+          <span class="mp-brand"><img src="./img/logos/mp.svg" alt="Mercado libre" width="120px"></span></div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    let element = document.getElementById("toggleButton");
+    let menu = document.getElementById("navbarSupportedContent");
+
+    function burger(){
+      console.log('click');
+      menu.classList.toggle("collapse");
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+</body>
+
+</html>
